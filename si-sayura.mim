@@ -29,7 +29,117 @@
 
 (description "Sinhala input method using the sayura transliteration system.
 
-Also, see: https://www.sayura.net/im/ .")
+See also:
+    https://www.sayura.net/im/
+    https://www.sayura.net/im/sayura.pdf
+
+In cases where there is a difference between the specification in the
+PDF and the behaviour of ibus-sayura, this input method follows the
+behaviour of ibus-sayura.
+
+For convenience, the contents of the above PDF are reproduced here
+(slightly changed where the behaviour of ibus-sayura disagrees
+with the PDF):
+
+සයුර සිංහළ යතුරුලියන සුසැටිය
+
+පණකුරු
+
+    අ a
+    ආ aa
+    ඇ q/A
+    ඈ qq/AA
+    ඉ i
+    ඊ ii
+    උ u
+    ඌ uu
+    ඍ U
+    ඎ UU
+    ව V   (PDF says: ඏ V)
+    වව VV (PDF says: ඐ VV)
+    එ e
+    ඒ ee
+    ඓ I
+    ඔ o
+    ඕ oo
+    ඖ O
+
+ගතකුරු
+
+    ක k
+    ඛ K/kH (PDF says also: ඛ kf but ibus-sayura does කෆ when typing kf)
+    ග g
+    ඝ gH (PDF says also: ඝ gf but ibus-sayura does ගෆ when typing gf)
+    ඞ X
+    ච c
+    ඡ C/cH (PDF says also: ඡ cf bug ibus-sayura does චෆ when typing cf)
+    ජ j
+    ඣ J/jH (PDF says also: ඣ jf but ibus-sayura does ජෆ when typing jf)
+    ඤ z
+    ට T
+    ඨ TH (PDF says also: ඨ Tf but ibus-sayura does ටෆ when typing Tf)
+    ඩ D
+    ඪ DH (PDF says also: ඪ Df but ibus-sayura does ඩෆ when typing Df)
+    ණ N
+    ත t
+    ථ tH (PDF says also: ථ tf but ibus-sayura does තෆ when typing tf)
+    ද d
+    ධ dH (PDF says also: ධ df but ibus-sayura does දෆ when typing df)
+    න n
+    ප p
+    ඵ P/pH (PDF says also: ඵ pf but ibus-sayura does පෆ when typing pf)
+    බ b
+    භ B/bH (PDF  says also: භ bf but ibus-sayura does බෆ when typing bf)
+    ම m
+    ය y
+    ර r
+    ල l
+    ව v
+    ඥ Z
+    ස s
+    ශ S
+    ෂ sH/SH (PDF says also: ෂ sf/Sf but ibus-sayura does සෆ when typing sf and ශෆ when typing Sf)
+    හ h
+    ළ L
+    ඟ G/gG
+    ඳ dG
+    ඬ DG
+    ඹ M/bG
+    ෆ F
+
+ගතකුරකට පසු f ෙහා් H ෙයදුෙමන් එය මහපාණයට ෙපරෙල් . G ෙයදුෙමන් සංඤකයට
+ෙපරෙල් .
+
+පිලි
+
+    ක් kw
+    කා ka
+    කැ kq
+    කෑ kqq
+    කි ki
+    කී kii
+    කු ku
+    කූ kuu
+    කෘ kU
+    කෲ kUU
+    කෙ ke
+    කේ kee
+    කො ko
+    කෝ koo
+    කෛ kI
+    කෞ kO
+    කං kx
+    කQ kQ (PDF says: කඃ kQ but ibus-sayura does කQ when typing kQ)
+
+බැඳි අකුරු
+
+අල් කිරීමWෙලස ෙයදීෙමන් බැඳි අකුරු ලැෙබ්.
+උදාහරණ: kWsH -කෂ, nWd -නද, nWdu -නදු, inWdRiy -ඉනදිය, rWk -ර්‍ක
+රකාරංසය: R,යංසය: Y
+උදාහරණ: kR -ක, kY -කය
+
+–අනුරාධ රත්නවීර
+")
 
 (title "අ")
 
