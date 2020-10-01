@@ -79,7 +79,6 @@ Also, see: https://www.sayura.net/im/ .")
      (= KEY ?W)
      (< 0 PREVIOUS-CONSONANT))
     (insert 0x0DCA)
-    ;; FIXME: commit preedit here?
     (insert 0x200D))
    ((&
      (= KEY ?H)
@@ -98,14 +97,12 @@ Also, see: https://www.sayura.net/im/ .")
      (< 0 PREVIOUS-CONSONANT))
     (insert 0x0DCA)
     (insert 0x200D)
-    ;; FIXME: commit preedit here?
     (insert 0x0DBB))
    ((&
      (= KEY ?Y)
      (< 0 PREVIOUS-CONSONANT))
     (insert 0x0DCA)
     (insert 0x200D)
-    ;; FIXME: commit preedit here?
     (insert 0x0DBA))
    (1 
     (insert CONSONANT)))
@@ -197,13 +194,6 @@ Also, see: https://www.sayura.net/im/ .")
    (set SINGLE1 0x0DD8)
    (set DOUBLE1 0x0DF2)
    (handle-vowel))
-;; FIXME:
-;;  ("Z"
-;;   (set SINGLE0 0x0D8F)
-;;   (set DOUBLE0 0x0D90)
-;;   (set SINGLE1 0x0D8F)
-;;   (set DOUBLE1 0x0D90)
-;;   (handle-vowel))
   )
  (consonants
   ("z"
